@@ -8,22 +8,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 */
 
 .main {
-    -fx-background-color: lightblue;
+    -fx-background-color: #FFFFFF;
     -fx-padding: 10; 
     -fx-alignment: center;
     -fx-spacing: 10;
 }
 
 .subject {
-    -fx-fill: red;
-    -fx-font-size: 36;
+    -fx-fill: #000000;
+    -fx-font-size: 14;
     -fx-stroke: gold;
     -fx-stroke-width: 3;
     -fx-font-weight: bold;
+    -fx-font-family: Arial;
 }
 
 .button {
-    -fx-background-color: darkblue;
-    -fx-text-fill: white;
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: #000000;
     -fx-pref-width: 150;
+    -fx-font-family: Arial;
 }
