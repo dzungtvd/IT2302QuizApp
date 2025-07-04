@@ -54,8 +54,8 @@ public class PrimaryController implements Initializable {
         //stage.showAndWait();
     }
     
-    public void LuyenTap (ActionEvent event) {
-        MyAlert.getInstance().showMsg("Coming soon...");
+    public void LuyenTap (ActionEvent event) throws IOException {
+        MyStage.getInstance().showStage("practice.fxml");
     }
     
     public void DangNhap (ActionEvent event) {

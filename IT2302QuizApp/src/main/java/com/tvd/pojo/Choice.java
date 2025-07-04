@@ -18,10 +18,15 @@ public class Choice {
         this.question = question;
     }
 
-    public Choice(String content, boolean is_correct, Question question) {
+    public Choice(String content, boolean is_correct) {
         this.content = content;
         this.is_correct = is_correct;
-        this.question = question;
+    }
+    
+    public Choice(int id, String content, boolean is_correct) {
+        this.id = id;
+        this.content = content;
+        this.is_correct = is_correct;
     }
 
     /**
