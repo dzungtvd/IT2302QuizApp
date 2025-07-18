@@ -58,6 +58,10 @@ public class PrimaryController implements Initializable {
         MyStage.getInstance().showStage("practice.fxml");
     }
     
+    public void Thi (ActionEvent event) throws IOException {
+        MyStage.getInstance().showStage("exam.fxml");
+    }
+    
     public void DangNhap (ActionEvent event) {
         MyAlert.getInstance().showMsg("Coming soon...");
     }

@@ -5,6 +5,7 @@
 package com.tvd.services;
 
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -13,14 +14,14 @@ import java.util.Map;
  * @author admin
  */
 public class FlyweightFactory {
-    private static Map<String, List> cachedData;
+    private static Map<String, List> cachedData = new HashMap<>();
     
     public static <E> List<E> getData(BaseServices s, String key) throws SQLException {
         if (cachedData.containsKey(key)) {
             return cachedData.get(key);
         }
         else {
-            List results = s.list();
+            List<E> results = s.list();
             cachedData.put(key, results);
             
             return results;

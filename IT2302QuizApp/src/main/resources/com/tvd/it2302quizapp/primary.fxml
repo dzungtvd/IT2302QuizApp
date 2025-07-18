@@ -10,6 +10,7 @@
       <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subject" text="QuizBox" />
       <Button mnemonicParsing="false" onAction="#QuanLyCauHoi" text="Quản lý câu hỏi" />
       <Button layoutX="10.0" layoutY="27.0" mnemonicParsing="false" onAction="#LuyenTap" text="Luyện tập" />
+      <Button mnemonicParsing="false" onAction="#Thi" text="Thi" />
       <Button layoutX="260.0" layoutY="244.0" mnemonicParsing="false" onAction="#DangNhap" text="Đăng nhập" />
       <Button layoutX="260.0" layoutY="262.0" mnemonicParsing="false" onAction="#DangKy" text="Đăng ký" />
       <Button layoutX="260.0" layoutY="279.0" mnemonicParsing="false" onAction="#Thoat" text="Thoát" />
